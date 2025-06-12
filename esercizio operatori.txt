@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("Inserisci a: ");
+    scanf("%d", &a);
+    printf("Inserisci b: ");
+    scanf("%d", &b);
+    int sum      = a + b;      // somma
+    int diff     = a - b;      // sottrazione
+    int prod     = a * b;      // moltiplicazione
+    int quot     = a / b;      // divisione intera
+    int mod      = a % b;      // modulo
+    printf("Somma: %d + %d = %d\n", a, b, sum);
+    printf("Differenza: %d - %d = %d\n", a, b, diff);
+    printf("Prodotto: %d * %d = %d\n", a, b, prod);
+    printf("Quoziente: %d / %d = %d \n", a, b, quot);
+    printf("Modulo: %d %% %d = %d \n", a, b, mod);
+    if 
+    (a>0 && b>0 )
+   { printf("%d e %d sono Maggiori di 0\n",a,b);
+    }
+    if 
+    (a % 2 ==0 || b % 2==0)
+    {printf("Tra %d e %d almeno uno e pari\n",a,b);
+    }
+    return 0;
+}
