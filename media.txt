@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+   char città[20];
+   float x,y,z;
+   float media;
+   printf("Inserisci il nome della tua città:");
+   scanf("%s", città);
+   printf("Inserisci x:");
+   scanf("%f",&x);
+   printf("Inserisci y:");
+   scanf("%f",&y);
+   printf("Inserisci z:");
+   scanf("%f",&z);
+   media=(x+y+z)/3;
+   printf("%s La media dei tre numeri %2f,%2f,%2f è %2f",città,x,y,z,media);
+
+    return 0;
+}
